@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conrad Brousseau — Graphic Design, Illustration &amp; Code</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Primary Navigation">
+      <a href="#title"><span class="nav-num">00</span> Title</a>
+      <a href="#about"><span class="nav-num">01</span> About</a>
+      <a href="#gallery"><span class="nav-num">02</span> Artwork &amp; Design</a>
+      <a href="#coding"><span class="nav-num">03</span> Coding</a>
+      <a href="#resume"><span class="nav-num">04</span> Resume</a>
+      <a href="#contact"><span class="nav-num">05</span> Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- 00: Centered Title Section -->
+    <section id="title" class="title-hero">
+      <div class="flourish-banner" data-flourish="hero-top" aria-hidden="true"></div>
+
+      <div class="title-content">
+        <p class="title-kicker">Portfolio Archive &middot; New York, NY</p>
+        <h1 class="main-title">Conrad Brousseau</h1>
+        <div class="gradient-rule"></div>
+        <p class="title-roles">Graphic Design &middot; Illustration &middot; Interactive Web</p>
+
+        <div class="title-actions">
+          <a href="#gallery" class="btn-gradient">Artwork &amp; Design</a>
+          <a href="#coding" class="btn-outline">Coding</a>
+          <a href="#resume" class="btn-outline">Resume</a>
+        </div>
+      </div>
+
+      <div class="flourish-banner" data-flourish="hero-bottom" aria-hidden="true"></div>
+    </section>
+
+    <!-- 01: Centered About Me -->
+    <section id="about" class="section">
+      <div class="section-header centered">
+        <span class="section-index">01</span>
+        <span class="section-label">About Me</span>
+        <div class="flourish-divider" data-flourish="divider" aria-hidden="true"></div>
+      </div>
+
+      <div class="about-centered">
+        <p class="lead">
+          Communication design student at Parsons, The New School (Expected Graduation 2029, Freshman GPA 4.0) blending visual storytelling, brand identity, and user-centered design from concept to final execution.
+        </p>
+        <p class="body-text">
+          Working across large-scale pen-and-ink illustration, digital portraiture, album packaging, speculative brand systems, and browser-based interactive tools—driven by curiosity, detail-oriented craft, and collaborative follow-through.
+        </p>
+
+        <div class="social-strip centered">
+          <a href="https://www.instagram.com/deisgnbyhadocean/" target="_blank" rel="noopener noreferrer">Art Instagram &nearr;</a>
+          <a href="https://www.linkedin.com/in/conrad-brousseau-75434236b/" target="_blank" rel="noopener noreferrer">LinkedIn &nearr;</a>
+          <a href="https://app.joinhandshake.com/" target="_blank" rel="noopener noreferrer">Handshake &nearr;</a>
+          <a href="mailto:brouc233@newschool.edu">brouc233@newschool.edu</a>
+          <a href="tel:+16504315776">(650) 431-5776</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02: Chronological Artwork & Design Gallery -->
+    <section id="gallery" class="section">
+      <div class="section-header centered">
+        <span class="section-index">02</span>
+        <span class="section-label">Artwork &amp; Design — Chronological Archive</span>
+        <div class="flourish-divider" data-flourish="divider" aria-hidden="true"></div>
+      </div>
+
+      <div class="gallery-toolbar centered">
+        <div class="filter-group" role="tablist" aria-label="Filter projects by category">
+          <button class="filter-btn active" data-filter="all" type="button">All (15)</button>
+          <button class="filter-btn" data-filter="artwork" type="button">Artwork (7)</button>
+          <button class="filter-btn" data-filter="design" type="button">Design (8)</button>
+        </div>
+
+        <button id="sort-toggle" class="sort-btn" type="button" aria-label="Toggle chronological order">
+          Order: Nov 2026 &rarr; May 2024 &varr;
+        </button>
+      </div>
+
+      <p class="gallery-hint centered">Select any piece to view full artwork, series variants, descriptions &amp; artist profile</p>
+
+      <div id="gallery-grid" class="gallery-grid"></div>
+    </section>
+
+    <!-- 03: Coding Websites -->
+    <section id="coding" class="section">
+      <div class="section-header centered">
+        <span class="section-index">03</span>
+        <span class="section-label">Coding — Interactive Web Projects</span>
+        <div class="flourish-divider" data-flourish="divider" aria-hidden="true"></div>
+      </div>
+
+      <div class="coding-list">
+        <a href="https://brouc233-ui.github.io/Conrad---Project-09---INT-REC/" target="_blank" rel="noopener noreferrer" class="coding-row">
+          <div class="coding-meta">
+            <span class="section-index">01</span>
+            <span>p5.js &middot; Web Audio &middot; Core 1</span>
+          </div>
+          <div class="coding-main">
+            <h3>Starry Night Keyboard</h3>
+            <p>Interactive browser piano and celestial visualizer translating QWERTY keystrokes into synthesized piano notes and pixelated blue stars.</p>
+          </div>
+          <div class="coding-action">Launch Site &nearr;</div>
+        </a>
+
+        <a href="https://brouc233-ui.github.io/f26.int.rec.project08.tidesoftime.conradbrousseau/" target="_blank" rel="noopener noreferrer" class="coding-row">
+          <div class="coding-meta">
+            <span class="section-index">02</span>
+            <span>HTML &middot; CSS &middot; JavaScript</span>
+          </div>
+          <div class="coding-main">
+            <h3>Tides of Time — Ocean-Themed Clock</h3>
+            <p>Web-based generative timepiece visualizing the passage of time through shifting tidal rhythms and ocean-inspired motion.</p>
+          </div>
+          <div class="coding-action">Launch Site &nearr;</div>
+        </a>
+
+        <a href="https://brouc233-ui.github.io/Mt.Olympus.v1/" target="_blank" rel="noopener noreferrer" class="coding-row">
+          <div class="coding-meta">
+            <span class="section-index">03</span>
+            <span>Interactive Web &middot; Narrative</span>
+          </div>
+          <div class="coding-main">
+            <h3>Mt. Olympus</h3>
+            <p>Interactive digital environment exploring classical mythology through spatial layout and browser interaction.</p>
+          </div>
+          <div class="coding-action">Launch Site &nearr;</div>
+        </a>
+
+        <a href="https://kima295-arch.github.io/Art-Exhibition/" target="_blank" rel="noopener noreferrer" class="coding-row">
+          <div class="coding-meta">
+            <span class="section-index">04</span>
+            <span>Collaborative Web &middot; Exhibition</span>
+          </div>
+          <div class="coding-main">
+            <h3>3-Artist Group Art Exhibition</h3>
+            <p>Collaborative digital gallery space curating works across three artists in an interactive browser exhibition.</p>
+          </div>
+          <div class="coding-action">Launch Site &nearr;</div>
+        </a>
+      </div>
+    </section>
+
+    <!-- 04: Chronological Resume -->
+    <section id="resume" class="section">
+      <div class="section-header centered">
+        <span class="section-index">04</span>
+        <span class="section-label">Curriculum Vitae</span>
+        <div class="flourish-divider" data-flourish="divider" aria-hidden="true"></div>
+      </div>
+
+      <div class="resume-grid">
+        <div class="resume-col">
+          <h2 class="resume-heading">Education</h2>
+
+          <div class="resume-item">
+            <div class="resume-top">
+              <h3>Parsons, The New School</h3>
+              <span class="resume-date">Expected 2029</span>
+            </div>
+            <p class="resume-sub">New York, NY &middot; Communication Design</p>
+            <p class="resume-detail">Freshman Year GPA: 4.0</p>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-top">
+              <h3>Woodside Priory School</h3>
+              <span class="resume-date">Graduated 2025</span>
+            </div>
+            <p class="resume-sub">Portola Valley, CA &middot; GPA: 3.89</p>
+            <p class="resume-detail">5 on AP Art &middot; Model UN &middot; Varsity Swim Team &middot; Varsity Water Polo</p>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-top">
+              <h3>Maryland Institute College of Art</h3>
+              <span class="resume-date">Summer 2024</span>
+            </div>
+            <p class="resume-sub">Baltimore, MD</p>
+            <p class="resume-detail">Summer Intensive for Graphic Design and Illustration</p>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-top">
+              <h3>Experiment International Living</h3>
+              <span class="resume-date">Summer 2022</span>
+            </div>
+            <p class="resume-sub">Paris &amp; Biarritz, France</p>
+            <p class="resume-detail">Homestay Exchange &middot; Language &amp; Photography Study Abroad</p>
+          </div>
+
+          <h2 class="resume-heading spaced">Skills &amp; Tools</h2>
+          <div class="skills-wrap">
+            <span>Illustrator</span>
+            <span>InDesign</span>
+            <span>Photoshop</span>
+            <span>Procreate</span>
+            <span>Canva</span>
+            <span>Social Media</span>
+            <span>Leadership</span>
+            <span>Research</span>
+            <span>Visual Storytelling</span>
+            <span>Adaptable</span>
+            <span>Responsible</span>
+            <span>CPR + AED Certified</span>
+          </div>
+        </div>
+
+        <div class="resume-col">
+          <h2 class="resume-heading">Experience</h2>
+
+          <div class="resume-item">
+            <div class="resume-top">
+              <h3>LifeMoves — Program Lead</h3>
+              <span class="resume-date">Jun – Aug 2026</span>
+            </div>
+            <ul class="resume-list">
+              <li>Directed a 9-week summer program serving 35 children, leading volunteer counselors to coordinate 5 field trips.</li>
+              <li>Managed a $3,000 program budget, delivering all planned activities on budget by sourcing donated materials.</li>
+              <li>Co-designed curriculum with program staff, increasing positive family feedback.</li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-top">
+              <h3>Propel Earth — Social Media Manager / Graphic Designer</h3>
+              <span class="resume-date">Aug 2025 – Jan 2026</span>
+            </div>
+            <ul class="resume-list">
+              <li>Positioned Propel Earth at high-profile climate events including Davos Consortium Climate Week, increasing client base.</li>
+              <li>Managed social media strategy by creating ads and graphics contributing to brand awareness.</li>
+              <li>Delivered talks to partners and potential clients to promote design services for company growth.</li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-top">
+              <h3>PyBay — Merch &amp; Social Media Designer</h3>
+              <span class="resume-date">Jun 2024 – Sep 2025</span>
+            </div>
+            <ul class="resume-list">
+              <li>Designed graphics, merchandise, social media posts, and banners for PyBay Conferences.</li>
+              <li>Collaborated with event organizers to iterate designs from concept to final production for brand visibility.</li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-top">
+              <h3>Walking Tree Travel — Painter, Volunteer</h3>
+              <span class="resume-date">Mar – Apr 2024</span>
+            </div>
+            <ul class="resume-list">
+              <li>Volunteered in Maricao, Puerto Rico with Fundaci&oacute;n Bucarabon to rebuild and repaint Hurricane Maria-damaged homes for two families.</li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-top">
+              <h3>Woodside Priory School — Set Building / Muralist</h3>
+              <span class="resume-date">Dec 2022 – May 2025</span>
+            </div>
+            <ul class="resume-list">
+              <li>Built theatre sets across multiple stage productions and executed a vibrant public mural for the College Counseling Department.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05: Centered Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="section-header centered">
+        <span class="section-index">05</span>
+        <span class="section-label">Contact &amp; Links</span>
+        <div class="flourish-divider" data-flourish="divider" aria-hidden="true"></div>
+      </div>
+
+      <div class="contact-centered">
+        <h2>Open to design collaborations, commissions &amp; internships.</h2>
+        <div class="gradient-rule"></div>
+
+        <div class="contact-links">
+          <a href="mailto:brouc233@newschool.edu" class="contact-row">
+            <span class="contact-key">Email</span>
+            <span class="contact-val">brouc233@newschool.edu</span>
+          </a>
+          <a href="tel:+16504315776" class="contact-row">
+            <span class="contact-key">Phone</span>
+            <span class="contact-val">(650) 431-5776</span>
+          </a>
+          <a href="https://www.instagram.com/deisgnbyhadocean/" target="_blank" rel="noopener noreferrer" class="contact-row">
+            <span class="contact-key">Art Instagram</span>
+            <span class="contact-val">@deisgnbyhadocean &nearr;</span>
+          </a>
+          <a href="https://www.linkedin.com/in/conrad-brousseau-75434236b/" target="_blank" rel="noopener noreferrer" class="contact-row">
+            <span class="contact-key">LinkedIn</span>
+            <span class="contact-val">Conrad Brousseau &nearr;</span>
+          </a>
+          <a href="https://app.joinhandshake.com/" target="_blank" rel="noopener noreferrer" class="contact-row">
+            <span class="contact-key">Handshake</span>
+            <span class="contact-val">Student Profile &nearr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="flourish-banner small" data-flourish="divider" aria-hidden="true"></div>
+    <p>&copy; 2026 Conrad Brousseau &middot; New York, NY</p>
+  </footer>
+
+  <!-- Interactive Lightbox Modal -->
+  <div id="work-modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close modal">Close &times;</button>
+
+      <div class="modal-media">
+        <div class="modal-image-frame">
+          <img id="modal-img" src="" alt="" />
+        </div>
+        <div id="modal-variants" class="modal-variants"></div>
+      </div>
+
+      <div class="modal-sidebar">
+        <div class="modal-tabs" role="tablist">
+          <button class="modal-tab active" data-tab="details" type="button">Piece Details</button>
+          <button class="modal-tab" data-tab="about" type="button">About Conrad</button>
+        </div>
+
+        <div id="tab-details" class="modal-tab-content active">
+          <div class="modal-meta-row">
+            <span id="modal-category" class="badge"></span>
+            <span id="modal-date" class="modal-date"></span>
+          </div>
+          <h2 id="modal-title" class="modal-title"></h2>
+          <p id="modal-medium" class="modal-medium"></p>
+          <div class="gradient-rule left"></div>
+          <p id="modal-desc" class="modal-desc"></p>
+
+          <div class="modal-nav-arrows">
+            <button id="prev-work" type="button">&larr; Previous</button>
+            <button id="next-work" type="button">Next &rarr;</button>
+          </div>
+        </div>
+
+        <div id="tab-about" class="modal-tab-content">
+          <span class="badge">Artist &amp; Designer</span>
+          <h2 class="modal-title">Conrad Brousseau</h2>
+          <p class="modal-medium">Parsons, The New School &middot; Communication Design (’29)</p>
+          <div class="gradient-rule left"></div>
+          <p class="modal-desc">
+            Conrad Brousseau is a New York-based graphic designer and illustrator blending visual storytelling, brand identity, and user-centered interactive design.
+          </p>
+          <p class="modal-desc">
+            Trained at Parsons, MICA, and abroad in Paris and Biarritz, his work spans architectural pen-and-ink drawings, album covers, editorial identity, and creative coding.
+          </p>
+          <div class="modal-about-links">
+            <a href="mailto:brouc233@newschool.edu">brouc233@newschool.edu</a>
+            <a href="tel:+16504315776">(650) 431-5776</a>
+            <a href="https://www.instagram.com/deisgnbyhadocean/" target="_blank" rel="noopener noreferrer">@deisgnbyhadocean &nearr;</a>
+            <a href="https://www.linkedin.com/in/conrad-brousseau-75434236b/" target="_blank" rel="noopener noreferrer">LinkedIn &nearr;</a>
+            <a href="https://app.joinhandshake.com/" target="_blank" rel="noopener noreferrer">Handshake &nearr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="style.js"></script>
+</body>
+</html>
