@@ -1,35 +1,35 @@
 const WORKS = [
   {
     title: 'CoderGirl Magazine Logo',
-    category: 'design',
+    category: 'Design',
     sortKey: 202611,
     date: 'November 2026',
-    medium: 'Brand & Editorial Identity',
+    medium: 'Logo & Editorial Design',
     cover: 'codergirl.jpeg',
-    variants: [{ label: 'Primary Mark', src: 'codergirl.jpeg' }],
+    variants: [{ label: 'Logo', src: 'codergirl.jpeg' }],
     description:
-      'Custom logotype designed for friend Nanada’s publication, CoderGirl Magazine, balancing technical precision with expressive editorial personality across print and digital covers.'
+      'I designed this logo in November 2026 for my friend Nanada’s magazine, CoderGirl. I wanted the lettering to feel sharp and structured while still having a warm editorial personality for the cover.'
   },
   {
     title: 'Soma (Blue & Red Editions)',
-    category: 'design',
+    category: 'Design',
     sortKey: 202611,
     date: 'November 2026',
-    medium: 'Single Cover Art · 2 Colorways',
+    medium: 'Single Cover Art · 2 Color Variants',
     cover: 'somablue.jpeg',
     variants: [
-      { label: 'Blue Edition', src: 'somablue.jpeg' },
-      { label: 'Red Edition', src: 'somared.jpeg' }
+      { label: 'Blue', src: 'somablue.jpeg' },
+      { label: 'Red', src: 'somared.jpeg' }
     ],
     description:
-      'Dual-edition cover art created for River’s single, contrasting cobalt blue and crimson variants to reflect the track’s sonic duality.'
+      'Two color variants—blue and red—that I designed in November 2026 for a single my friend River is working on, playing with two opposite moods for the same cover.'
   },
   {
     title: 'Orange Sunshine',
-    category: 'design',
+    category: 'Design',
     sortKey: 202610,
     date: 'October – November 2026',
-    medium: 'Album Cover System · 5 Color Variants',
+    medium: 'Album Cover Series · 5 Color Variants',
     cover: 'osun.orange.jpeg',
     variants: [
       { label: 'Orange', src: 'osun.orange.jpeg' },
@@ -39,44 +39,44 @@ const WORKS = [
       { label: 'Purple', src: 'osun.pruple.jpeg' }
     ],
     description:
-      'Five-variant album cover series designed for River’s upcoming album. Each edition—Orange, Blue, Magenta, Pink, and Purple—shifts the chromatic mood while maintaining a cohesive visual identity.'
+      'A five-color album cover series (orange, blue, magenta, pink, and purple) created in October and November 2026 for another one of River’s upcoming albums.'
   },
   {
     title: 'inurdreams',
-    category: 'design',
+    category: 'Design',
     sortKey: 202610,
     date: 'October 2026',
-    medium: 'EP Cover Art · Music Packaging',
+    medium: 'EP Cover Design',
     cover: 'inurdreams.png',
     variants: [{ label: 'EP Cover', src: 'inurdreams.png' }],
     description:
-      'Cover artwork designed for River’s upcoming EP, translating nocturnal textures and dreamlike atmospheres into a unified single-frame sleeve.'
+      'Album cover I designed in October 2026 for my friend River’s upcoming EP, matching the hazy, late-night feel of the tracks.'
   },
   {
     title: 'Internet Map',
-    category: 'artwork',
+    category: 'Artwork',
     sortKey: 202609,
     date: 'September 2026',
-    medium: 'Digital Illustration · Speculative Cartography',
+    medium: 'Digital Illustration',
     cover: 'internetmap.jpg',
     variants: [{ label: 'Full Map', src: 'internetmap.jpg' }],
     description:
-      'Speculative digital illustration mapping the architecture of the internet—translating networks, servers, and online communities into a visual cartography.'
+      'A digital illustration from September 2026 mapping out a speculative version of the internet—turning invisible networks, pathways, and corners of the web into a physical geography.'
   },
   {
-    title: 'Straight Off the Street',
-    category: 'design',
+    title: 'Straight Off the Street Logo',
+    category: 'Design',
     sortKey: 202604,
     date: 'April 2026',
-    medium: 'Digital Brand Identity & Video Logo',
+    medium: 'Digital Logo Design',
     cover: 'sots.jpeg',
-    variants: [{ label: 'Digital Logo', src: 'sots.jpeg' }],
+    variants: [{ label: 'Logo', src: 'sots.jpeg' }],
     description:
-      'Bold digital logomark created for a friend’s street-interview video series, built for crisp legibility across mobile video openers and social channels.'
+      'A digital logo I designed in April 2026 for a friend’s street-interview video series, made to read clearly on mobile video intros and social posts.'
   },
   {
-    title: 'Tonic Brand System',
-    category: 'design',
+    title: 'Tonic Brand & Print System',
+    category: 'Design',
     sortKey: 202602,
     date: 'February – April 2026',
     medium: 'Speculative Brand Identity & Print Collateral',
@@ -89,153 +89,229 @@ const WORKS = [
       { label: 'Thank You Card', src: 'tonicthankyou.jpeg' }
     ],
     description:
-      'Complete speculative brand design project created for a Graphic Design and Marketing elective, spanning the core logomark, typographic title lockup, editorial print pieces, and branded thank-you collateral.'
+      'A speculative brand design project I built between February and April 2026 for a graphic design and marketing elective, including the primary logo, title lockup, print layouts, and a branded thank-you card.'
   },
   {
     title: 'Rebirth / Rediscovery',
-    category: 'design',
+    category: 'Design',
     sortKey: 202509,
     date: 'September 2025',
     medium: 'Graphic Design Poster',
     cover: 'rebirthrediscovery.jpeg',
     variants: [{ label: 'Poster', src: 'rebirthrediscovery.jpeg' }],
     description:
-      'Graphic design poster diagramming Conrad’s personal creative process—visualizing cycles of experimentation, deconstruction, and artistic renewal.'
+      'A graphic design poster I drew in September 2025 mapping out my own creative process—how ideas break apart, evolve, and come back together.'
   },
   {
     title: 'Self-Portrait in Circles',
-    category: 'artwork',
+    category: 'Artwork',
     sortKey: 202509,
     date: 'September 2025',
-    medium: 'Digital Illustration',
+    medium: 'Digital Illustration · Portraiture',
     cover: 'selfportrait.jpeg',
-    variants: [{ label: 'Digital Portrait', src: 'selfportrait.jpeg' }],
+    variants: [{ label: 'Portrait', src: 'selfportrait.jpeg' }],
     description:
-      'Digital self-portrait built from concentric and overlapping circular forms, balancing geometric structure with expressive portraiture.'
+      'A digital self-portrait I made in September 2025, constructing facial structure, light, and expression out of layered circular shapes.'
   },
   {
     title: 'Cathedral',
-    category: 'artwork',
+    category: 'Artwork',
     sortKey: 202506,
     date: 'June – August 2025',
-    medium: 'Illustration · Architectural Study',
+    medium: 'Architectural Illustration',
     cover: 'cathedral.jpeg',
-    variants: [{ label: 'Full Work', src: 'cathedral.jpeg' }],
+    variants: [{ label: 'Illustration', src: 'cathedral.jpeg' }],
     description:
-      'Inspired by the Cologne Cathedral in Germany and Notre-Dame Cathedral in Paris, reimagining monumental Gothic stonework and vertical tracery in a lush, luminous palette.'
+      'Inspired by the Cologne Cathedral in Germany and Notre-Dame Cathedral in Paris, I made this piece over summer 2025 to reimagine traditional Gothic stonework and arches in a lush, bright color palette.'
   },
   {
     title: 'Got a Light',
-    category: 'artwork',
+    category: 'Artwork',
     sortKey: 202412,
     date: 'December 2024',
-    medium: 'Illustration · Art Historical Reinterpretation',
+    medium: 'Illustration',
     cover: 'gotalight.JPG',
     variants: [{ label: 'Illustration', src: 'gotalight.JPG' }],
     description:
-      'Contemporary reinterpretation of Michelangelo’s Renaissance painting of Adam reaching toward God, reframed in an intimate modern visual narrative.'
+      'An illustration from December 2024 inspired by the Renaissance painting of Adam reaching toward God, reinterpreted in an everyday contemporary scene.'
   },
   {
     title: 'Urban Scars',
-    category: 'artwork',
+    category: 'Artwork',
     sortKey: 202411,
     date: 'November 2024',
-    medium: 'Mixed-Media Collage Illustration',
+    medium: 'Collage Illustration',
     cover: 'urbanscars.JPG',
     variants: [{ label: 'Collage', src: 'urbanscars.JPG' }],
     description:
-      'Mixed-media collage illustration examining climate change and environmental impact—layering fragmented architectural forms and natural textures.'
+      'A collage illustration I made in November 2024 about climate change, piecing together urban fragments and natural textures to show how cities leave lasting marks on the environment.'
   },
   {
     title: 'C.R.E.A.M. Vinyl Cover',
-    category: 'design',
+    category: 'Design',
     sortKey: 202407,
     date: 'July 2024',
-    medium: 'Album Packaging · MICA Pre-College',
+    medium: 'Speculative Album Cover · MICA Pre-College',
     cover: 'cream.jpg',
-    variants: [{ label: 'Sleeve Design', src: 'cream.jpg' }],
+    variants: [{ label: 'Vinyl Sleeve', src: 'cream.jpg' }],
     description:
-      'Speculative vinyl album sleeve designed during the MICA Graphic Design Pre-College intensive, exploring bold typographic hierarchy and tactile record packaging.'
+      'A speculative vinyl album cover I designed in July 2024 during the MICA graphic design pre-college program.'
   },
   {
     title: 'Escapism',
-    category: 'artwork',
+    category: 'Artwork',
     sortKey: 202407,
     date: 'July 2024',
     medium: 'Illustration · MICA Pre-College',
     cover: 'escapism.JPG',
     variants: [{ label: 'Illustration', src: 'escapism.JPG' }],
     description:
-      'Illustration created during the MICA Illustration Pre-College program following the graphic design intensive, exploring atmosphere, interiority, and imaginative escape.'
+      'An illustration I made in July 2024 during MICA’s illustration program immediately following my graphic design intensive.'
   },
   {
     title: 'Monuments of Worship',
-    category: 'artwork',
+    category: 'Artwork',
     sortKey: 202405,
     date: 'May – August 2024',
     medium: 'Pen & Ink on 30 × 30 in Canvas',
     cover: 'monumentsofworship.JPG',
     variants: [{ label: '30 × 30 in Canvas', src: 'monumentsofworship.JPG' }],
     description:
-      'All pen-and-ink illustration on a 30 × 30 in canvas uniting sacred architectural landmarks from religions around the world around a central circle—symbolizing the simple, shared values at the core of all faiths.'
+      'An all pen-and-ink architectural illustration drawn on a 30 × 30 inch canvas between May and August 2024. I brought together sacred buildings from religions around the world around a simple central circle representing the shared human values at the core of all faiths.'
   }
 ];
 
-function createFlourishSVG(mode) {
-  const width = mode === 'divider' ? 280 : 640;
-  const height = mode === 'divider' ? 34 : 56;
-  const cy = height / 2;
-  const dots = [];
+/* Procedural Dotted Baroque Filigree Generator (Solid Cobalt, Medium Blue & Sky Blue) */
+function renderFlourish(type) {
+  const shadows = [];
+  const mainDots = [];
+  const highlights = [];
 
-  function addDot(x, y, size = 2.6) {
-    const gx = Math.round(x / 3) * 3;
-    const gy = Math.round(y / 3) * 3;
-    dots.push(`<rect x="${gx}" y="${gy}" width="${size}" height="${size}" />`);
+  function dot(x, y, size = 2.6, tone = 'main') {
+    const sx = Math.round(x / 3) * 3;
+    const sy = Math.round(y / 3) * 3;
+    shadows.push(`<rect x="${sx + 2}" y="${sy + 2}" width="${size}" height="${size}" />`);
+    if (tone === 'light') {
+      highlights.push(`<rect x="${sx}" y="${sy}" width="${size}" height="${size}" />`);
+    } else {
+      mainDots.push(`<rect x="${sx}" y="${sy}" width="${size}" height="${size}" />`);
+    }
   }
 
-  for (const dir of [-1, 1]) {
-    const span = mode === 'divider' ? 115 : 275;
-    const step = mode === 'divider' ? 0.035 : 0.018;
+  function spiral(cx, cy, maxR, dir, turns = 2.2, step = 0.22) {
+    for (let a = 0; a < Math.PI * turns; a += step) {
+      const r = maxR * (1 - a / (Math.PI * (turns + 0.4)));
+      dot(cx + dir * Math.cos(a) * r, cy + Math.sin(a) * r, 2.4, a > Math.PI ? 'light' : 'main');
+    }
+  }
 
-    for (let t = 0.04; t <= 1; t += step) {
-      const x = width / 2 + dir * t * span;
-      const wave = Math.sin(t * Math.PI * 3) * (mode === 'divider' ? 6 : 11);
-      addDot(x, cy + wave, 2.5);
-      if (t > 0.25 && t < 0.85) {
-        addDot(x, cy - wave * 0.65, 2);
+  if (type === 'crown' || type === 'scroll-wide') {
+    const w = 720;
+    const h = 68;
+    const cy = h / 2;
+
+    // Central diamond & twin spirals
+    dot(w / 2 - 2, cy - 2, 4, 'main');
+    dot(w / 2 - 2, cy - 11, 2.5, 'light');
+    dot(w / 2 - 2, cy + 7, 2.5, 'light');
+    spiral(w / 2 - 18, cy, 13, -1, 2.1, 0.25);
+    spiral(w / 2 + 18, cy, 13, 1, 2.1, 0.25);
+
+    for (const dir of [-1, 1]) {
+      for (let t = 0.08; t <= 1; t += 0.014) {
+        const x = w / 2 + dir * t * 320;
+        const primaryWave = Math.sin(t * Math.PI * 3.5) * 14;
+        const secondaryWave = Math.cos(t * Math.PI * 7) * 5;
+        dot(x, cy + primaryWave, 2.6, 'main');
+        if (t > 0.15 && t < 0.92) {
+          dot(x, cy - primaryWave * 0.55 + secondaryWave, 2.2, 'light');
+        }
+      }
+
+      // Curl offshoots along the vine
+      spiral(w / 2 + dir * 135, cy - 10, 15, dir, 2.0, 0.24);
+      spiral(w / 2 + dir * 235, cy + 9, 14, -dir, 2.0, 0.24);
+      spiral(w / 2 + dir * 326, cy, 18, dir, 2.3, 0.2);
+    }
+
+    return wrapSVG(w, h, shadows, mainDots, highlights);
+  }
+
+  if (type === 'medallion') {
+    const w = 440;
+    const h = 48;
+    const cy = h / 2;
+
+    dot(w / 2 - 2, cy - 2, 3.8, 'main');
+    spiral(w / 2 - 14, cy, 11, -1, 2.0, 0.26);
+    spiral(w / 2 + 14, cy, 11, 1, 2.0, 0.26);
+
+    for (const dir of [-1, 1]) {
+      for (let t = 0.12; t <= 1; t += 0.022) {
+        const x = w / 2 + dir * t * 185;
+        const y = cy + Math.sin(t * Math.PI * 3) * 9;
+        dot(x, y, 2.4, 'main');
+        if (Math.sin(t * Math.PI * 9) > 0.4) {
+          dot(x, y - 5, 2, 'light');
+        }
+      }
+      spiral(w / 2 + dir * 190, cy, 13, dir, 2.2, 0.22);
+    }
+
+    return wrapSVG(w, h, shadows, mainDots, highlights);
+  }
+
+  if (type === 'corner') {
+    const w = 42;
+    const h = 42;
+    for (let t = 0; t <= 1; t += 0.12) {
+      dot(4 + t * 28, 4 + Math.sin(t * Math.PI) * 3, 2.2, 'main');
+      dot(4 + Math.sin(t * Math.PI) * 3, 4 + t * 28, 2.2, 'main');
+    }
+    spiral(15, 15, 9, 1, 1.9, 0.3);
+    return wrapSVG(w, h, shadows, mainDots, highlights);
+  }
+
+  if (type === 'rail-left' || type === 'rail-right') {
+    const w = 44;
+    const h = 760;
+    const dir = type === 'rail-left' ? 1 : -1;
+    const cx = w / 2;
+
+    for (let t = 0.02; t <= 0.98; t += 0.008) {
+      const y = t * h;
+      const x = cx + Math.sin(t * Math.PI * 6) * 10 * dir;
+      dot(x, y, 2.4, 'main');
+      if (Math.cos(t * Math.PI * 12) > 0.35) {
+        dot(x + dir * 5, y + 2, 2, 'light');
       }
     }
 
-    const curlCenterX = width / 2 + dir * (span - 16);
-    for (let a = 0; a < Math.PI * 2.2; a += 0.28) {
-      const r = (mode === 'divider' ? 11 : 18) * (1 - a / (Math.PI * 2.5));
-      addDot(curlCenterX + dir * Math.cos(a) * r, cy + Math.sin(a) * r, 2.2);
+    for (const frac of [0.12, 0.36, 0.62, 0.88]) {
+      spiral(cx + dir * 4, h * frac, 13, dir, 2.2, 0.24);
     }
+
+    return wrapSVG(w, h, shadows, mainDots, highlights);
   }
 
-  addDot(width / 2 - 1.5, cy - 1.5, 4);
+  return '';
+}
 
-  const gradId = `fg-${Math.random().toString(36).slice(2, 8)}`;
+function wrapSVG(w, h, shadows, mainDots, highlights) {
   return `
-    <svg class="flourish-svg" viewBox="0 0 ${width} ${height}" width="${width}" height="${height}">
-      <defs>
-        <linearGradient id="${gradId}" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#12b8a6" />
-          <stop offset="50%" stop-color="#2264d8" />
-          <stop offset="100%" stop-color="#12b8a6" />
-        </linearGradient>
-      </defs>
-      <g fill="url(#${gradId})">
-        ${dots.join('')}
-      </g>
+    <svg class="flourish-svg" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}">
+      <g fill="#82b8ff" opacity="0.75">${shadows.join('')}</g>
+      <g fill="#1038b9">${mainDots.join('')}</g>
+      <g fill="#2b6de0">${highlights.join('')}</g>
     </svg>
   `;
 }
 
 document.querySelectorAll('[data-flourish]').forEach((el) => {
-  el.innerHTML = createFlourishSVG(el.dataset.flourish);
+  el.innerHTML = renderFlourish(el.dataset.flourish);
 });
 
+/* Gallery Filtering, Chronological Sorting & Modal Lightbox */
 const galleryGrid = document.getElementById('gallery-grid');
 const filterButtons = document.querySelectorAll('.filter-btn');
 const sortToggle = document.getElementById('sort-toggle');
@@ -250,29 +326,29 @@ const modalDesc = document.getElementById('modal-desc');
 
 let currentFilter = 'all';
 let newestFirst = true;
-let displayedWorks = [];
-let activeWorkIndex = 0;
+let visibleWorks = [];
+let activeIndex = 0;
 
 function renderGallery() {
-  const base =
+  const filtered =
     currentFilter === 'all'
       ? [...WORKS]
-      : WORKS.filter((item) => item.category === currentFilter);
+      : WORKS.filter((item) => item.category.toLowerCase() === currentFilter);
 
-  displayedWorks = base.sort((a, b) =>
+  visibleWorks = filtered.sort((a, b) =>
     newestFirst ? b.sortKey - a.sortKey : a.sortKey - b.sortKey
   );
 
   galleryGrid.innerHTML = '';
 
-  displayedWorks.forEach((work, index) => {
+  visibleWorks.forEach((work, index) => {
     const card = document.createElement('article');
     card.className = 'work-card';
     card.tabIndex = 0;
 
     const variantBadge =
       work.variants.length > 1
-        ? `<span class="variant-pill">${work.variants.length} Views</span>`
+        ? `<span class="variant-count">${work.variants.length} views</span>`
         : '';
 
     card.innerHTML = `
@@ -280,9 +356,9 @@ function renderGallery() {
         <img src="${work.cover}" alt="${work.title}" loading="lazy" />
         ${variantBadge}
       </div>
-      <div class="work-info">
+      <div class="work-caption">
         <h3 class="work-title">${work.title}</h3>
-        <span class="work-meta-line">${work.category} &middot; ${work.date}</span>
+        <p class="work-sub">${work.category} &middot; ${work.date}</p>
       </div>
     `;
 
@@ -299,8 +375,8 @@ function renderGallery() {
 }
 
 function openModal(index) {
-  activeWorkIndex = index;
-  const work = displayedWorks[activeWorkIndex];
+  activeIndex = index;
+  const work = visibleWorks[activeIndex];
   if (!work) return;
 
   modalCategory.textContent = work.category;
@@ -361,8 +437,8 @@ filterButtons.forEach((btn) => {
 sortToggle.addEventListener('click', () => {
   newestFirst = !newestFirst;
   sortToggle.innerHTML = newestFirst
-    ? 'Order: Nov 2026 &rarr; May 2024 &varr;'
-    : 'Order: May 2024 &rarr; Nov 2026 &varr;';
+    ? 'Newest First (Nov 2026 &rarr; May 2024)'
+    : 'Oldest First (May 2024 &rarr; Nov 2026)';
   renderGallery();
 });
 
@@ -375,25 +451,25 @@ document.querySelectorAll('.modal-tab').forEach((tab) => {
 });
 
 document.getElementById('prev-work').addEventListener('click', () => {
-  const prevIdx = (activeWorkIndex - 1 + displayedWorks.length) % displayedWorks.length;
-  openModal(prevIdx);
+  const prev = (activeIndex - 1 + visibleWorks.length) % visibleWorks.length;
+  openModal(prev);
 });
 
 document.getElementById('next-work').addEventListener('click', () => {
-  const nextIdx = (activeWorkIndex + 1) % displayedWorks.length;
-  openModal(nextIdx);
+  const next = (activeIndex + 1) % visibleWorks.length;
+  openModal(next);
 });
 
 document.addEventListener('keydown', (e) => {
   if (!modal.classList.contains('open')) return;
   if (e.key === 'Escape') closeModal();
   if (e.key === 'ArrowLeft') {
-    const prevIdx = (activeWorkIndex - 1 + displayedWorks.length) % displayedWorks.length;
-    openModal(prevIdx);
+    const prev = (activeIndex - 1 + visibleWorks.length) % visibleWorks.length;
+    openModal(prev);
   }
   if (e.key === 'ArrowRight') {
-    const nextIdx = (activeWorkIndex + 1) % displayedWorks.length;
-    openModal(nextIdx);
+    const next = (activeIndex + 1) % visibleWorks.length;
+    openModal(next);
   }
 });
 
